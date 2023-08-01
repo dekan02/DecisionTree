@@ -10,6 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 warnings.filterwarnings('ignore')
 
 # Creaing Heading and small description
+st.set_page_config(page_title="Iris Result")
 st.title('Iris Flower Classification Webapp')
 st.write("""This app predicts the **Iris Flower** type according to its measurements of Sepal & Petal""")
 st.image("irisFlow.jpg")

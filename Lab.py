@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 #setting my app’s title
+st.set_page_config(page_title="Iris Classification Graph")
 st.title('Classification on Iris Dataset')
 df = pd.read_csv("Iris.csv")
 df = df.drop('Id', axis = 1)
